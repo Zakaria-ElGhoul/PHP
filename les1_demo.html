@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Zakaria ElGhoul GD1A">
+        <title>Ajax form</title>
+        <style>
+            body {
+                background-color: slategrey;
+                font: xx-small;
+            }
+        </style>
+        <body>
+            <form method="get" action="form_1_php">
+                <h1>AJAX 1 - Zakaria </h1>
+                <input type="text" name="firstname", id="firstname", placeholder="Voornaam">
+                <input type="text" name="lastname", id="lastname", placeholder="Achternaam">
+                <input type="number" name="age", id="age", placeholder="age">
+                <input type="button" name="submit", id="submit", value="submit">
+            </form>
+            <div id = "responseHere">Hieronder komt de response</div>
+            <div>
+                <h4 id="response"></h4>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </head>
+</html>
